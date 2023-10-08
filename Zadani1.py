@@ -34,3 +34,5 @@ if password_policy_check(username, password):
     print("Heslo je platné.")
 else:
     print("Heslo není platné.")
+
+#   To je například, když v SQL používáte pro stringu znak " (uvozovky) a hacker vloží jako nickname autora string: "\",\"\"); DROP TABLE PRISPEVEK; --" a tim cely systém hacknut. Svůj kód otestujte v pomocí klienta MySQL Workbench.
